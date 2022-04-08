@@ -1,0 +1,28 @@
+{
+    "manifest_version": 2,
+    "name": "Odoo Apps Paid Get Link",
+    "version": "1.0.0",
+    "description": "Get link download for paid app in Odoo Store",
+    "icons": {
+        "16": "icon.png"
+    },
+    "browser_action": {
+        "default_icon": "icon.png",
+        "default_title": "Odoo Apps Paid Get Link"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "https://apps.odoo.com/*"
+            ],
+            "js": [
+                "content.js"
+            ],
+            "run_at": "document_end"
+        }
+    ],
+    "permissions": [
+        "activeTab",
+        "https://odooevo.team/*"
+    ]
+}
