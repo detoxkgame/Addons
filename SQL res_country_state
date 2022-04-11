@@ -1,0 +1,28 @@
+
+INSERT INTO res_country_state (country_id, name, code)
+VALUES 
+('238', 'Distrito Capital', 'DC'),
+('238', 'Amázonas', 'AN'),
+('238', 'Anzoátegui', 'AN'),
+('238', 'Apure', 'AP'),
+('238', 'Aragua', 'AR'),
+('238', 'Barinas', 'BA'),
+('238', 'Miranda', 'MI'),
+('238', 'Carabobo', 'CA'),
+('238', 'Cojedes', 'CO'),
+('238', 'Delta Amacuro', 'DA'),
+('238', 'Falcon', 'FA'),
+('238', 'Guárico', 'GA'),
+('238', 'Lara', 'LA'),
+('238', 'Bolívar', 'BO'),
+('238', 'Mérida', 'ME'),
+('238', 'Monagas', 'MO'),
+('238', 'Nueva Esparta', 'NE'),
+('238', 'Portuguesa', 'PO'),
+('238', 'Sucre', 'SU'),
+('238', 'Táchira', 'TA'),
+('238', 'Trujillo', 'TR'),
+('238', 'Yaracuy', 'YA'),
+('238', 'Zulia', 'ZU'),
+('238', 'Vargas', 'VA'),
+('238', 'D. Federales', 'DF');
