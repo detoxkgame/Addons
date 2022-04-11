@@ -7,12 +7,15 @@ $ cd /path/to/my/project
 3. Add your project files to the repository :
 
 
-(1) rm -rf .git/
-$ git add /
-(2) git init
+Run ´´´git fetch´´´
 
-(3) git remote add origin https://github.com/detoxkgame/Addons.git
 
-(4) git commit -m “Commit message”
-$ git pull 
-(5) git push -f origin master
+Run ´´´git pull origin master´´´. You will likely have merge conflicts, in which case you will have to open the specified files and edit them and then save them.
+
+
+Run ´´´git add ´´´ [name of file] e.g. "git add index.html" or run ´´´git add --all´´´ to add all changes to all files to your commit.
+
+
+Run ´´´git commit -m´´´ "Write a message about your commit here"
+
+Run ´´´git push origin master´´´ to push your changes to the remote repository.
